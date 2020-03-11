@@ -18,7 +18,7 @@ class School
       @roster.select! {|grade| grade==level}.values.flatten    
   end 
   
-  def sort  #sort by grade
-   @roster.sort.group_by {|k,v| k}
+  def sort(grade)  #sort by grade
+   @roster.sort| k}
   end
 end
