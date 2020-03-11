@@ -1,4 +1,4 @@
-yes  sort each grade alphabeticallyrequire 'pry'
+require 'pry'
 class School
   attr_accessor :roster, :student_name, :school_name 
   def initialize(school_name)
@@ -19,6 +19,7 @@ class School
   end 
   
   def sort  #sort by grade
-   @roster.sort| k}
+   @roster.each do |grade, names|
+    binding.pry
   end
 end
