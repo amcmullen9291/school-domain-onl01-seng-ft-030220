@@ -1,4 +1,4 @@
-require 'pry'
+yes  sort each grade alphabeticallyrequire 'pry'
 class School
   attr_accessor :roster, :student_name, :school_name 
   def initialize(school_name)
